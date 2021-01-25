@@ -1,9 +1,9 @@
-package no003_collections;
+package no03_collections;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class mySet {
+public class MySet {
 
   public static void main(String[] args) {
 

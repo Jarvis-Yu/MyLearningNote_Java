@@ -1,9 +1,9 @@
-package no003_collections;
+package no03_collections;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class myMap {
+public class MyMap {
 
   public static void main(String[] args) {
     // final var namesToAges = Map.of("alice", 22, "bob", 20);

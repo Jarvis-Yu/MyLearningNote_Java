@@ -11,6 +11,9 @@ package no00_introduction;
  */
 public class MyClass {
 
+  // "static" means this variable applies to all MyClass objects (not a specific one)
+  static final String WELCOME_LETTER = "This will be a start of a wonderful journey!";
+
   /* This properties in Java is defined in this way
    * "private" means this cannot be accessed outside the class
    * "final" means this cannot be changed once set

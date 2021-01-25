@@ -1,3 +1,5 @@
+// Keywords: package, class, private, public, final, this, static, void, override, toString, return
+
 /* This shows which package the class is in
  * Classes having the same root package can use each other without import
  */
@@ -69,8 +71,8 @@ public class MyClass {
     MyClass myClass1 = new MyClass(3, 4);
     final int i0 = myClass0.sum();  // 3
     final int i1 = sumOfTwoMyClass(myClass0, myClass1); // 10
-    System.out.print(String.format("myClass0 = %s; ", myClass0.toString()));
-    System.out.println(String.format("myClass1 = %s", myClass1.toString()));
+    System.out.print(String.format("myClass0 = %s; ", myClass0)); // no need to write toString here
+    System.out.println(String.format("myClass1 = %s", myClass1));
     System.out.println(String.format("myClass0.sum() = %d", i0));
     System.out.println(String.format("sumOfTwoMyClass(myClass0, myClass1) = %d", i1));
   }

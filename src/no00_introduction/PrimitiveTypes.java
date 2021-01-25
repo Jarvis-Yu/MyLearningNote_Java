@@ -1,3 +1,5 @@
+// Keywords: primitive types, byte, short, int, long, float, double, boolean, char, +, -, *, /, %
+
 package no00_introduction;
 
 public class PrimitiveTypes {

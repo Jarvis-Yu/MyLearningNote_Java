@@ -1,30 +1,31 @@
 package no02_structures;
 
-import gadgets.XPair;
+import gadgets.XIPair;
 
 import java.util.List;
 
 public class BasicStructure {
+
   public static void main(String[] args) {
-    List<XPair> xPairs = List.of(
-        new XPair(1, 2),
-        new XPair(2, 3),
-        new XPair(3, 4)
+    List<XIPair> xIPairs = List.of(
+        new XIPair(1, 2),
+        new XIPair(2, 3),
+        new XIPair(3, 4)
     );
     // The following two "for"s do the same thing
     System.out.println("First For: ");
-    for (int i = 0; i < xPairs.size(); i++) {
-      System.out.println(xPairs.get(i));
+    for (int i = 0; i < xIPairs.size(); i++) {
+      System.out.println(xIPairs.get(i));
     }
     System.out.println("Second For: ");
-    for (XPair xPair : xPairs) {
-      System.out.println(xPair);
+    for (XIPair xIPair : xIPairs) {
+      System.out.println(xIPair);
     }
 
     // This is not the smart way to do it. Just to show how switch Function here
     System.out.println("\nswitch: ");
-    for (XPair xPair : xPairs) {
-      switch (xPair.getA()) {
+    for (XIPair xIPair : xIPairs) {
+      switch (xIPair.getA()) {
         case 1 -> System.out.println("a is 1");
         case 2, 3 -> System.out.println("a is 2 or 3");
         default -> System.out.println("a is not 1, 2 or 3");
@@ -33,8 +34,8 @@ public class BasicStructure {
 
     // another application of switch
     System.out.println("\nswitch Assign: ");
-    for (XPair xPair : xPairs) {
-      final int x = switch (xPair.getA()) {
+    for (XIPair xIPair : xIPairs) {
+      final int x = switch (xIPair.getA()) {
         case 0 -> 0;
         default -> 1;
       };

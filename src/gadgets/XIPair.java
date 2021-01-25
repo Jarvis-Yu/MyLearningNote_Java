@@ -1,11 +1,11 @@
 package gadgets;
 
-public class XPair {
+public class XIPair {
 
   private final int a;
   private final int b;
 
-  public XPair(int a, int b) {
+  public XIPair(int a, int b) {
     this.a = a;
     this.b = b;
   }

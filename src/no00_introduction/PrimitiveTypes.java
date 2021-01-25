@@ -8,7 +8,6 @@ public class PrimitiveTypes {
    * Here are some examples
    * Note here: 5.0 is double by default, so we need to use (float) to force it being the type float
    */
-
   private byte a = 1; // 8-bit signed integer
   private short b = 2; // 16-bit signed integer
   private int c = 3; // 32-bit signed two's complement integer

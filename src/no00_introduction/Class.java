@@ -1,7 +1,7 @@
 /* This shows which package the class is in
  * Classes having the same root package can use each other without import
  */
-package introduction;
+package no00_introduction;
 
 /* Everything in Java is coded in classes
  * Every "*.class" file only contains one class which has the same name as the file

@@ -6,7 +6,7 @@ package no00_introduction;
 /* Everything in Java is coded in classes
  * Every "*.class" file only contains one class which has the same name as the file
  */
-public class Class {
+public class MyClass {
 
   /* This properties in Java is defined in this way
    * "private" means this cannot be accessed outside the class
@@ -20,9 +20,10 @@ public class Class {
   /* It is the constructor of the class
    * It takes two parameters "a" and "b" of the same type Integer
    * And assign them to the properties of the class
+   * "public" means the method can be used by anyone
    * "this" indicates that we are referring to the properties of the class instead of the parameters
    */
-  public Class(Integer a, Integer b) {
+  public MyClass(Integer a, Integer b) {
     this.a = a;
     this.b = b;
   }
@@ -30,15 +31,17 @@ public class Class {
   /* In OOP(object-oriented programming), it is always good to use set and get methods if you do
    *   wish other people can change the class directly. There is a reason for that.
    */
+  // "void" means this method returns no value
   public void setB(Integer b) {
     this.b = b;
   }
 
-  public Integer getA() {
-    return a;
+  // "int" means this method returns a int
+  public int getA() {
+    return a.intValue();
   }
 
-  public Integer getB() {
-    return b;
+  public int getB() {
+    return b.intValue();
   }
 }

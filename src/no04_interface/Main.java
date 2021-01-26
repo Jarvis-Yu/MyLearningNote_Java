@@ -10,7 +10,8 @@ public class Main {
     MrMonster mrMonster = new MrMonster(5);
     MrStrange mrStrange = new MrStrange(5);
     final int a = averageHeight(mrMonster, mrStrange);
-    System.out.println(String.format("mrMonster.getHeight() = %d\nmrStrange.getHeight() = %d\n " +
-        "a = %d", mrMonster.getHeight(), mrStrange.getHeight(), a));
+    System.out.printf(
+        "mrMonster.getHeight() = %d\nmrStrange.getHeight() = %d\n a = %d%n",
+        mrMonster.getHeight(), mrStrange.getHeight(), a);
   }
 }

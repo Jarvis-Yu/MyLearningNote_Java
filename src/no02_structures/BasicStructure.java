@@ -39,7 +39,7 @@ public class BasicStructure {
         case 0 -> 0;
         default -> 1;
       };
-      System.out.println(String.format("a is classified as %d", x));
+      System.out.printf("a is classified as %d%n", x);
     }
   }
 }

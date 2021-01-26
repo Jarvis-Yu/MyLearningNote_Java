@@ -38,12 +38,12 @@ public class PrimitiveTypes {
     final double r4 = (double) c / (double) b; // 1.500000
     final int r5 = e % c; // 1
     // "++" and "--" is skipped
-    System.out.println(String.format("a = %d; b = %d; c = %d; d = %d; e = %d", a, b, c, d, e));
-    System.out.println(String.format("a + b = %d", r0));
-    System.out.println(String.format("a - b = %d", r1));
-    System.out.println(String.format("b * c = %d", r2));
-    System.out.println(String.format("c / b = %d", r3));
-    System.out.println(String.format("(double) c / (double) b = %f", r4));
-    System.out.println(String.format("e %% c = %d", r5));
+    System.out.printf("a = %d; b = %d; c = %d; d = %d; e = %d%n", a, b, c, d, e);
+    System.out.printf("a + b = %d%n", r0);
+    System.out.printf("a - b = %d%n", r1);
+    System.out.printf("b * c = %d%n", r2);
+    System.out.printf("c / b = %d%n", r3);
+    System.out.printf("(double) c / (double) b = %f%n", r4);
+    System.out.printf("e %% c = %d%n", r5);
   }
 }

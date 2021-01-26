@@ -11,6 +11,10 @@ public class MyList {
 
     List<String> names = new ArrayList<>(List.of("alice", "bob"));
     // final var = List<String>
+    /* A number of kind of lists
+     * ArrayList
+     * LinkedList
+     */
 
     names.add("george");
 

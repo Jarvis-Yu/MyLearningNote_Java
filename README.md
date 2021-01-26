@@ -5,7 +5,7 @@ All notes are in src/ in packages starting with "no%d%d"
 
 I might make the README nicer if I have time to do so.
 
-######### Content ########
+## Content
 
 The name of the packages describes the content in it
 

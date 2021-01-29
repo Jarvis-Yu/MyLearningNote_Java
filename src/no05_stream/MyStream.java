@@ -21,7 +21,7 @@ public class MyStream {
   }
 
   public static void main(String[] args) {
-    List<Integer> a0 = new ArrayList<>(List.of(1, 2, 3, 4, 5, 6));
+    List<Integer> a0 = new ArrayList<>(List.of(1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 9, 10));
     List<Integer> b0 =
         a0.stream() // turn it to a0 stream
             .map(MyStream::doubleInt) // use map
@@ -90,6 +90,9 @@ public class MyStream {
                 String::length // item -> item.length()
             ))
     );
-  }
 
+    /* some more Stream methods */
+    Integer a2 = (int) a0.stream().dropWhile(item -> item < 3).limit(5).distinct().count();
+    // -> [3, 4, 5, 6, 6, 6, 7, 8, 9, 10] -> [3, 4, 5, 6, 6] -> [3, 4, 5, 6] -> 4
+  }
 }

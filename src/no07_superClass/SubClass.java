@@ -21,7 +21,7 @@ public class SubClass extends SuperClass{
 
   @Override
   public void sumAB() {
-    System.out.printf("SubClass: Nope! I won't tell you!%n");
+    System.out.printf("SubClass: Nope! I won't tell you!%n2");
   }
 
 }

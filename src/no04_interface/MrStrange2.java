@@ -1,10 +1,10 @@
 package no04_interface;
 
-public class MrStrange implements InterfaceExample {
+public class MrStrange2 implements InterfaceExample2<MrMonster2> {
 
   private final int a;
 
-  public MrStrange(int a) {
+  public MrStrange2(int a) {
     this.a = a;
   }
 
@@ -21,5 +21,10 @@ public class MrStrange implements InterfaceExample {
   @Override
   public int getHeight() {
     return a * 2;
+  }
+
+  @Override
+  public int sumHeight(MrMonster2 other) {
+    return this.getHeight() + other.getHeight();
   }
 }

@@ -1,8 +1,8 @@
-package no04_interface;
+package no04_interface.advanced;
 
 public class Main {
 
-  public static int averageHeight(InterfaceExample a, InterfaceExample b) {
+  public static int averageHeight(InterfaceExample<MrMonster> a, InterfaceExample<MrStrange> b) {
     return (a.getHeight() + b.getHeight()) / 2;
   }
 

@@ -1,4 +1,4 @@
-package no04_interface;
+package no04_interface.basic;
 
 public interface InterfaceExample {
 

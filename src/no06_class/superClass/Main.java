@@ -1,4 +1,4 @@
-package no07_superClass;
+package no06_class.superClass;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package no07_superClass;
+package no06_class.superClass;
 
 /* "extends" show the using of 'super class'
  * Methods from super class can be used in subclasses as well as protected properties

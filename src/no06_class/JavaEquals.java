@@ -1,4 +1,4 @@
-package no06_moreClasses;
+package no06_class;
 
 import gadgets.OnePClass;
 

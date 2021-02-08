@@ -1,10 +1,11 @@
 package no06_class.n01_casting;
 
-public class Main {
+public class DowncastExample {
 
   public static void main(String[] args) {
     SuperClass myClass = new SubClass(100, 10);
 
+    // Downcast
     // The 'Apparent Type' of myClass is SuperClass; The 'Actual Type' is SubClass
     // To use methods of the 'Actual Type', we need to downcast
     ((SubClass) myClass).getActualValue();

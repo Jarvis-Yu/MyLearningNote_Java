@@ -1,4 +1,4 @@
-package no06_class.superClass.n02_abstract;
+package no06_class.n02_abstract;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package no06_class.superClass.n01_casting;
+package no06_class.n01_casting;
 
 /** Represents a general kind of cash. */
 public class SuperClass {

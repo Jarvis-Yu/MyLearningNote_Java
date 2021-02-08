@@ -1,4 +1,4 @@
-package no06_class.superClass.n02_abstract;
+package no06_class.n02_abstract;
 
 // Abstract allows a class to be like an interface in some methods
 // If the class implements or extends sth., it doesn't need to implement all methods

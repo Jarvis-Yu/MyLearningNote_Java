@@ -1,4 +1,4 @@
-package no06_class.superClass.casting;
+package no06_class.superClass.n01_casting;
 
 public class SubClass extends SuperClass{
 

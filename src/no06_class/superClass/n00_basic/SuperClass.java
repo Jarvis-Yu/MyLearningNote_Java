@@ -1,9 +1,11 @@
-package no06_class.superClass;
+package no06_class.superClass.n00_basic;
 
 public class SuperClass {
 
-  /* "private" properties is not visible in subClasses
-   * "protected" properties is visible in subClasses and this class only
+  /* "private" property is not visible in subClasses
+   * "protected" property is visible in subClasses and this class only
+   * "package" property is visible in the same package ".%/" but not in ".%/*%/"
+   * "public" property is visible to all
    */
   private final int a;
   protected final int b;

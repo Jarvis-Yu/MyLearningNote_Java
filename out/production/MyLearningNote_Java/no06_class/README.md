@@ -1,0 +1,1 @@
+The `superClass.basic.SuperClass` contains introduction to properties like public, private, protected & package

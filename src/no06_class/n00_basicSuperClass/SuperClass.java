@@ -1,4 +1,4 @@
-package no06_class.superClass.n00_basic;
+package no06_class.n00_basic;
 
 public class SuperClass {
 

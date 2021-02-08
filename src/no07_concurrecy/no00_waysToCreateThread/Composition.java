@@ -5,6 +5,6 @@ public class Composition {
     Thread thread = new Thread(() -> {
       System.out.println("Hi!");
     });
-    thread.run();
+    thread.start();
   }
 }

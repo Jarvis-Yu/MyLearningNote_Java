@@ -12,6 +12,6 @@ public class ImplementRunnable implements Runnable{
   public static void main(String[] args) {
     ImplementRunnable implementRunnable = new ImplementRunnable();
     Thread t = new Thread(implementRunnable);
-    t.run();
+    t.start();
   }
 }

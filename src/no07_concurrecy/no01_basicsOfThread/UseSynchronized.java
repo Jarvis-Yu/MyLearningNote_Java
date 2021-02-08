@@ -12,8 +12,7 @@ public class UseSynchronized implements Runnable{
     }
   }
 
-
-//  //You may also use it in blocks
+//  // You may also use it in blocks
 //  @Override
 //  public void run() {
 //    synchronized (this) { // 'this' can be replaced by other visible objects

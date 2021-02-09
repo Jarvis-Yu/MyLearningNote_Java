@@ -1,4 +1,4 @@
-package no07_concurrecy.no00_waysToCreateThread;
+package no07_concurrecy.n00_waysToCreateThread;
 
 public class ExtendThread extends Thread{
   private int counter = 0;

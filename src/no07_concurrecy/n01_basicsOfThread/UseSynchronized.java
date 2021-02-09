@@ -1,4 +1,4 @@
-package no07_concurrecy.no01_basicsOfThread;
+package no07_concurrecy.n01_basicsOfThread;
 
 public class UseSynchronized implements Runnable{
   private int counter = 0;

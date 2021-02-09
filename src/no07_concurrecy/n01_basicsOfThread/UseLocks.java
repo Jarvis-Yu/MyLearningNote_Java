@@ -1,4 +1,4 @@
-package no07_concurrecy.no01_basicsOfThread;
+package no07_concurrecy.n01_basicsOfThread;
 
 import java.util.ArrayList;
 import java.util.List;

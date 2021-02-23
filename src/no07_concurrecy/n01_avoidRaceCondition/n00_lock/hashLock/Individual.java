@@ -1,4 +1,4 @@
-package no07_concurrecy.n01_basicsOfThread.n00_lock.hashLock;
+package no07_concurrecy.n01_avoidRaceCondition.n00_lock.hashLock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

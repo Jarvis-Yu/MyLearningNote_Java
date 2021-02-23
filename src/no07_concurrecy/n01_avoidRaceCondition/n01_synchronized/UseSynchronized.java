@@ -1,4 +1,4 @@
-package no07_concurrecy.n01_basicsOfThread.n01_synchronized;
+package no07_concurrecy.n01_avoidRaceCondition.n01_synchronized;
 
 public class UseSynchronized implements Runnable{
   private int counter = 0;

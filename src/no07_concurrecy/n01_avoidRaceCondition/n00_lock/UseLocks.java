@@ -1,4 +1,4 @@
-package no07_concurrecy.n01_basicsOfThread.n00_lock;
+package no07_concurrecy.n01_avoidRaceCondition.n00_lock;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,0 +1,6 @@
+// Untrack all files in .gitignore
+git rm --cached `git ls-files -i --exclude-from=.gitignore`
+
+// Update local files completely according to latest remote repository
+git fetch -p
+git reset --hard origin/<本地branch的名称> // Use `git branch` to check branch name

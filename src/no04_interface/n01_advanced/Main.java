@@ -15,3 +15,12 @@ public class Main {
         mrMonster.getHeight(), mrStrange.getHeight(), a);
   }
 }
+
+/** Interfaces and extend each other. */
+interface A {
+  public void f1();
+}
+
+interface B extends A {
+  public void f2();
+}

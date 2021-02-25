@@ -1,4 +1,4 @@
-package no04_interface.basic;
+package no04_interface.n00_basic;
 
 public class Main {
 

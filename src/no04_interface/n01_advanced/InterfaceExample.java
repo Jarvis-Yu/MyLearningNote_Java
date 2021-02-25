@@ -1,4 +1,4 @@
-package no04_interface.advanced;
+package no04_interface.n01_advanced;
 
 public interface InterfaceExample<T extends InterfaceExample<T>> {
 

@@ -1,6 +1,7 @@
 package no06_class;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class OverrideEquals {
@@ -40,5 +41,9 @@ class A {
   @Override
   public int hashCode() {
     return a + b.hashCode();
+  }
+
+  public int anotherWayToHashCode() {
+    return Objects.hash(a, b);
   }
 }

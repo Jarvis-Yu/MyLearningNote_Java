@@ -1,12 +1,18 @@
 package no06_class;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class OverrideEquals {
 
   public static void main(String[] args) {
     A a = new A(1, "2");
     A b = new A(1, "2");
-    System.out.println(a.equals(b));
-    System.out.println(b.equals(a));
+    System.out.println(a.equals(b)); // .equals apply here
+    System.out.println(b.equals(a)); // .equals apply here
+    Set<A> s = new HashSet<>();
+    s.add(a);
+    System.out.println(s.contains(b)); // .hashcode apply here
   }
 }
 

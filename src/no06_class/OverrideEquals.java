@@ -3,18 +3,19 @@ package no06_class;
 public class OverrideEquals {
 
   public static void main(String[] args) {
-    A a = new A(1, 2);
-    A b = new A(1, 2);
+    A a = new A(1, "2");
+    A b = new A(1, "2");
     System.out.println(a.equals(b));
+    System.out.println(b.equals(a));
   }
 }
 
 class A {
 
   private final int a;
-  private final int b;
+  private final String b;
 
-  A(int a, int b) {
+  A(int a, String b) {
     this.a = a;
     this.b = b;
   }
@@ -28,5 +29,10 @@ class A {
     }
     A other = (A) object;
     return a == other.a && b == other.b;
+  }
+
+  @Override
+  public int hashCode() {
+    return a + b.hashCode();
   }
 }
